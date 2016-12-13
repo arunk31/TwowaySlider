@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TwowaySliderView">
+        <attr name="sliderColor" format="color"/>
+        <attr name="cancelOnYExit" format="boolean"/>
+        <attr name="sliderBackgroundColor" format="color"/>
+        <attr name="cornerRadiusX" format="dimension"/>
+        <attr name="cornerRadiusY" format="dimension"/>
+        <attr name="sliderImage" format="integer"/>
+        <attr name="leftImage" format="integer" />
+        <attr name="rightImage" format="integer" />
+        <attr name="fillCircle" format="boolean" />
+    </declare-styleable>
+
+</resources>
