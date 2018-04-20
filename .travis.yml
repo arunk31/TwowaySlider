@@ -25,5 +25,5 @@ android:
     - extra-android-m2repository
 
 script:
-    - chmod +x ./gradlew build connectedCheck
+    - chmod +x ./gradlew assembleDebug #build connectedCheck
     #- gradle assembleDebug
