@@ -28,5 +28,9 @@ before_install:
     - chmod +x gradlew
  
 script:
-    - ./gradlew assembleDebug #build connectedCheck
+    - ./gradlew sonarqube \
+    -Dsonar.organization=arunkrishnamurthy-github \
+    -Dsonar.host.url=https://sonarcloud.io \
+    -Dsonar.login=a47242d33d71bf77465b42273e49674fee60dad5
+    #- ./gradlew assembleDebug #build connectedCheck
     #- gradle assembleDebug
